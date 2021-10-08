@@ -1,5 +1,5 @@
 # The image of the service <registry>/<repo>/<image>:<tag>
-image: docker.io/library/nginx:1.18-alpine
+image: docker.io/nginxinc/nginx-unprivileged:1.21-alpine
 # Sets the imagePullPolicy of the service deployment
 imagePullPolicy: IfNotPresent
 # If defined, the given secret name will be configured as a pull secret
